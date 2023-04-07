@@ -1,7 +1,9 @@
+import s from './Profile.module.css'
+
 const Profile = () => {
-    return <div className='content'>
+    return <div className={s.content}>
         <div>
-            <img src='https://mobimg.b-cdn.net/v3/fetch/8a/8a2e15f705cb2619322527ea48640a54.jpeg?w=1200&r=0.5625' />
+            <img src='https://i.pinimg.com/564x/c7/57/b9/c757b95adf617a20ea8cb82a5c35967e.jpg' />
         </div>
         <div>
             ava + descriptions
