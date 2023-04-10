@@ -2,8 +2,29 @@ import s from './Dialogs.module.css'
 
 const Dialogs = (props)=>{
     return(
-        <div>
-            Dialogs
+        <div className={s.dialogs}>
+            <div className={s.dialogsItems}>
+                <div className={s.dialog + ' ' + s.active}>
+                    Artem
+                </div>
+                <div className={s.dialog}>
+                    Andrey
+                </div>
+                <div className={s.dialog}>
+                    Sveta
+                </div>
+                <div className={s.dialog}>
+                    Sasha
+                </div>
+                <div className={s.dialog}>
+                    Viktor
+                </div>
+            </div>
+            <div className={s.messages}>
+                <div className={s.message}>Hello</div>
+                <div className={s.message}>How are you?</div>
+                <div className={s.message}>Hi</div>
+            </div>
         </div>
     )
 }
