@@ -5,9 +5,28 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
+let posts = [
+  { id: 1, message: 'Hi, how are you?', likesCount: 12 },
+  { id: 2, message: 'It is my first post', likesCount: 11 },
+]
+
+let dialogs = [
+  { id: 1, name: 'Artem' },
+  { id: 2, name: 'Andrey' },
+  { id: 3, name: 'Sveta' },
+  { id: 4, name: 'Sasha' },
+  { id: 5, name: 'Viktor' }
+]
+
+let messages = [
+  { id: 1, message: 'Hello' },
+  { id: 2, message: 'How are you?' },
+  { id: 3, message: 'Hi' }
+]
 root.render(
   <React.StrictMode>
-    <App />
+    <App posts={posts} dialogs={dialogs} messages={messages}/>
   </React.StrictMode>
 );
 
