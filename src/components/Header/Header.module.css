@@ -1,9 +1,11 @@
-.header{
+.header {
   grid-area: h;
   height: 150px;
   background-color: blue;
-  
+
 }
-.header img{
+
+.header img {
   width: 30px;
+  background-image: url('https://i.pinimg.com/564x/94/4a/d7/944ad708cb3d18bde746fbc753c5b16d.jpg');
 }
